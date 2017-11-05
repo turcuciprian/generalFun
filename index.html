@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div ng-app="testMod">
+      <div ng-controller="testCtrl as tc">
+        <button type="button" ng-click="tc.testButt();" name="button">Test here</button>
+        <button type="button" ng-click="tc.removeButt();" name="button">Remove!</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="./dist/commons.js"></script>
+    <script type="text/javascript" src="./dist/bundle.js"></script>
+  </body>
+</html>
